@@ -190,7 +190,6 @@ void UncaughtExceptionHandler(NSException *exception) {
     if (error) {
         NSLog(@"清空缓存失败: %@", error);
     } else {
-        [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:@"xp.network.caches"];
         NSLog(@"已清空缓存");
     }
 }
