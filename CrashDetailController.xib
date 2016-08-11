@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11173.2" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11143.2"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CrashDetailController">
+            <connections>
+                <outlet property="textView" destination="2YT-eB-70J" id="524-bV-cSM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="fhsajfie" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2YT-eB-70J">
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2YT-eB-70J" secondAttribute="bottom" id="LhL-pf-YT6"/>
+                <constraint firstItem="2YT-eB-70J" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="My7-Xp-FTh"/>
+                <constraint firstAttribute="trailing" secondItem="2YT-eB-70J" secondAttribute="trailing" id="OcQ-k1-309"/>
+                <constraint firstItem="2YT-eB-70J" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wtG-mG-jMU"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="2YT-eB-70J"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="LhL-pf-YT6"/>
+                    <exclude reference="My7-Xp-FTh"/>
+                    <exclude reference="OcQ-k1-309"/>
+                    <exclude reference="wtG-mG-jMU"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="2YT-eB-70J"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="LhL-pf-YT6"/>
+                    <include reference="My7-Xp-FTh"/>
+                    <include reference="OcQ-k1-309"/>
+                    <include reference="wtG-mG-jMU"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>
